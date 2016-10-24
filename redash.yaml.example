@@ -1,0 +1,5 @@
+init_config:
+    default_timeout: 5
+
+instances:
+    - url: http://localhost/status.json?api_key=<STUB_KEY>

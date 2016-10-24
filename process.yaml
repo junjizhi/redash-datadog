@@ -1,0 +1,27 @@
+---
+instances:
+- name: celery
+  search_string:
+  - celery
+  exact_match: 'False'
+  thresholds:
+    critical:
+    - 3
+    - 10
+    warning:
+    - 4
+    - 9
+- name: gunicorn
+  search_string:
+  - gunicorn
+  exact_match: 'False'
+  thresholds:
+    critical:
+    - 0
+    - 10
+    warning:
+    - 1
+    - 5
+
+
+init_config:
