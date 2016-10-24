@@ -14,6 +14,9 @@ For redash status agent check,
 
 For process checks, tune the parameters and copy process.yaml to `/etc/dd-agent/conf.d/`. You can find documentation [here](https://github.com/DataDog/dd-agent/blob/master/conf.d/process.yaml.example). Then restart dd-agent. Now you can add graphs or monitors in the datadog web console. For example, you can search the metric `system.processes.threads` with tag `celery`. 
 
+# Credits
+- Thanks for Kevin Martin (Melraidin) for the idea and the code review. 
+
 # References
 - http://docs.datadoghq.com/guides/agent_checks/
 - http://docs.redash.io/en/latest/usage/maintenance.html#monitoring
