@@ -1,0 +1,10 @@
+init_config:
+
+instances:
+    - process_name: celery
+      warning_threshold: 604800  # seconds
+      critical_threshold: 864000 # seconds
+
+    - process_name: gunicorn
+      warning_threshold: 604800  # seconds
+      critical_threshold: 864000 # seconds
